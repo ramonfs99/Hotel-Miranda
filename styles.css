@@ -108,7 +108,47 @@
   border-color: rgba(255, 255, 255, 0.33);
 }
 .header__bookings {
+  display: block;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
   background-color: #222222;
+}
+.header__bookings__dates__label {
+  display: block;
+  margin-top: 5%;
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: 1.1719rem;
+  color: white;
+}
+.header__bookings__dates__input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 95%;
+  height: 2.0625rem;
+  margin-top: 2%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #bead8e;
+  color: white;
+}
+.header__bookings__button {
+  width: 70%;
+  max-width: 13.5625rem;
+  height: 4rem;
+  margin-top: 10%;
+  background-color: #bead8e;
+  border: none;
+  font-size: 0.875rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 0.9519rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
 }
 
 * {
