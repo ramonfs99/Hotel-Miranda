@@ -6,10 +6,10 @@
   height: 4rem;
 }
 .header__navbar__hamburger-btn {
-  margin-left: 1rem;
   margin-top: 1.6rem;
-  border: none;
+  margin-left: 1rem;
   background-color: transparent;
+  border: none;
 }
 .header__navbar__logo {
   position: relative;
@@ -19,19 +19,19 @@
   height: 2.5rem;
 }
 .header__navbar__logo__container {
+  filter: drop-shadow(0 14px 24px #8b8b8b);
   width: 2%;
   height: 100%;
-  padding-right: 1.6rem;
-  padding-left: 0.8rem;
   padding-top: 0.6rem;
+  padding-right: 1.6rem;
   padding-bottom: 0.6rem;
+  padding-left: 0.8rem;
   background-color: white;
-  filter: drop-shadow(0 14px 24px #8b8b8b);
 }
 .header__navbar__logo__container_icon {
+  font-size: 1rem;
   font-family: Archivo, sans-serif;
   font-weight: 700;
-  font-size: 1rem;
   line-height: 1.125rem;
   letter-spacing: 0.175rem;
 }
@@ -39,10 +39,10 @@
   position: relative;
   bottom: 2.2rem;
   left: 40%;
-  text-transform: uppercase;
-  font-family: Archivo, sans-serif;
   font-size: 0.8rem;
+  font-family: Archivo, sans-serif;
   line-height: 1.125rem;
+  text-transform: uppercase;
   letter-spacing: 0.0625rem;
 }
 .header__navbar__buttons__button {
@@ -58,48 +58,48 @@
 }
 .header__jumbotron {
   margin-top: 4rem;
-  background-color: #333333;
   padding-bottom: 20%;
+  background-color: #333333;
 }
 .header__jumbotron__motto {
-  padding-top: 20%;
-  margin-left: 5%;
   width: 60%;
-  color: white;
-  font-family: Archivo, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
+  margin-left: 5%;
+  padding-top: 20%;
   font-size: 0.8rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
   line-height: 1.125rem;
+  color: white;
+  text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
 .header__jumbotron__title {
   margin-top: 10%;
   margin-left: 5%;
-  color: white;
-  font-family: "Old Standard TT", serif;
   font-size: 3.5rem;
+  font-family: "Old Standard TT", serif;
   font-weight: 400;
+  line-height: 3.75rem;
+  color: white;
   text-transform: capitalize;
   letter-spacing: -0.075rem;
-  line-height: 3.75rem;
 }
 .header__jumbotron__buttons {
   width: 50%;
   max-width: 13.5625rem;
   height: 4rem;
-  color: white;
-  font-family: Archivo, sans-serif;
-  font-size: 0.875rem;
-  font-weight: 700;
-  letter-spacing: 0.175rem;
-  line-height: 0.9519rem;
-  text-transform: uppercase;
   margin-left: 5%;
+  font-size: 0.875rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 0.9519rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
 }
 .header__jumbotron__buttons--take-a-tour {
   margin-top: 10%;
-  background-color: #BEAD8E;
+  background-color: #bead8e;
   border: none;
 }
 .header__jumbotron__buttons--learn-more {
