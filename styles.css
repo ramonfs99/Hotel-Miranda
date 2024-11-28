@@ -74,7 +74,7 @@
 }
 .header__jumbotron__title {
   margin-top: 10%;
-  margin-left: 5%;
+  margin-inline: 5%;
   font-size: 3.5rem;
   font-family: "Old Standard TT", serif;
   font-weight: 400;
@@ -151,7 +151,7 @@
 }
 .header__navigation {
   position: relative;
-  left: 60%;
+  left: 50%;
   bottom: 3rem;
   background-color: white;
   width: -moz-fit-content;
@@ -852,6 +852,298 @@
 .rooms--rooms__pagination a {
   text-decoration: none;
   color: #222222;
+}
+
+.section-title {
+  margin-inline: 5%;
+  font-size: 0.8rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 1.125rem;
+  color: #777777;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.content-title {
+  margin-inline: 5%;
+  font-size: 2.5rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 3.09rem;
+  text-transform: capitalize;
+  letter-spacing: -0.0656rem;
+}
+
+.price-tag {
+  margin-inline: 5%;
+  font-size: 0.875rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 2.6875rem;
+  color: #bead8e;
+}
+.price-tag__price {
+  font-size: 2rem;
+}
+
+.image {
+  margin-inline: 5%;
+  width: 90%;
+}
+
+.availability {
+  display: block;
+  margin-top: 10%;
+}
+.availability__title {
+  font-size: 1.125rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 1.2237rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: -0.0338rem;
+}
+.availability__check {
+  padding-inline: 5%;
+  margin-top: 10%;
+}
+.availability__check__label {
+  display: block;
+  margin-left: 5%;
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: 1.1719rem;
+}
+.availability__check__input {
+  padding-inline: 5%;
+  margin-inline: 10%;
+  width: 80%;
+  height: 3.6rem;
+  margin-top: 5%;
+  background-color: #f8f8f8;
+  border: none;
+}
+.availability__button {
+  margin-inline: 10%;
+  width: 80%;
+  height: 4rem;
+  margin-top: 5%;
+  background-color: #bead8e;
+  border: none;
+  font-size: 0.875rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 400;
+  line-height: 0.9519rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+}
+
+.text {
+  margin-inline: 5%;
+  width: 90%;
+  margin-top: 10%;
+  font-size: 0.875rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #777777;
+}
+
+.amenities {
+  margin-inline: 5%;
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
+.amenities__title {
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 2.5rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 3.09rem;
+  color: #222222;
+  text-transform: capitalize;
+  letter-spacing: -0.0656rem;
+}
+.amenities__list {
+  -moz-columns: 2;
+       columns: 2;
+  margin-top: 5%;
+  font-size: 0.9375rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #777777;
+  list-style: none;
+}
+.amenities__list img {
+  margin-right: 5%;
+}
+
+.founder {
+  margin-inline: 10%;
+  width: 80%;
+  margin-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+}
+.founder__image-container__image {
+  aspect-ratio: 1;
+  width: 40%;
+  border-radius: 100%;
+}
+.founder__name {
+  margin-top: 5%;
+  font-size: 1.875rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 1.875rem;
+  color: #222222;
+  text-transform: capitalize;
+  letter-spacing: -0.0563rem;
+}
+.founder__title {
+  margin-top: 4%;
+  font-size: 0.875rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 0.9519rem;
+  color: #bdac8d;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+}
+.founder__text {
+  margin-top: 10%;
+  font-size: 1rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #777777;
+}
+
+.cancellation {
+  margin-inline: 5%;
+  width: 90%;
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
+.cancellation__title {
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 1.875rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 3.09rem;
+  color: #222222;
+  text-transform: capitalize;
+  letter-spacing: -0.0656rem;
+}
+.cancellation__text {
+  margin-top: 5%;
+  font-size: 1rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #777777;
+}
+
+.related-rooms {
+  margin-inline: 5%;
+  width: 90%;
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
+.related-rooms__title {
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 1.875rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 3.09rem;
+  color: #222222;
+  text-transform: capitalize;
+  letter-spacing: -0.0656rem;
+}
+.related-rooms__showcase {
+  margin-top: 10%;
+}
+.related-rooms__showcase__navigation-btn {
+  font-size: 1rem;
+  width: 10%;
+  aspect-ratio: 1;
+  border: none;
+  text-align: center;
+  position: relative;
+}
+.related-rooms__showcase__navigation-btn--left {
+  right: 0.5rem;
+  top: 30vw;
+  background-color: white;
+}
+.related-rooms__showcase__navigation-btn--right {
+  top: 30vw;
+  left: 80%;
+  background-color: #BDAC8D;
+}
+.related-rooms__showcase__image {
+  width: 100%;
+}
+.related-rooms__showcase__icons {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: auto;
+  bottom: 1.5rem;
+  left: 15%;
+  width: 70%;
+  height: 2.5rem;
+  background-color: white;
+}
+.related-rooms__showcase__info {
+  position: relative;
+  bottom: 20px;
+  left: auto;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+.related-rooms__showcase__info__title {
+  font-size: 1.75rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 3.75rem;
+  text-transform: capitalize;
+  letter-spacing: -0.075rem;
+}
+.related-rooms__showcase__info__text {
+  position: relative;
+  left: 5%;
+  width: 90%;
+  font-size: 0.875rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #777777;
+}
+.related-rooms__showcase__info__price-tag {
+  margin-right: 10%;
+  font-size: 0.875rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 2.6875rem;
+  color: #bead8e;
+}
+.related-rooms__showcase__info__book-now {
+  font-size: 1rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 17.41px;
+}
+.related-rooms__showcase__info__book-now a {
+  color: #bdbdbd;
+  text-decoration: none;
 }
 
 .footer {
