@@ -151,7 +151,7 @@
 }
 .header__navigation {
   position: relative;
-  left: 65%;
+  left: 60%;
   bottom: 3rem;
   background-color: white;
   width: -moz-fit-content;
@@ -806,6 +806,52 @@
 .counter__image-container__image {
   width: 100%;
   aspect-ratio: 1.5;
+}
+
+.rooms--rooms {
+  width: 90%;
+  margin-inline: 5%;
+}
+.rooms--rooms__showcase {
+  margin-top: 10%;
+}
+.rooms--rooms__showcase__image {
+  width: 100%;
+}
+.rooms--rooms__showcase__icons {
+  top: auto;
+  bottom: 1.5rem;
+}
+.rooms--rooms__showcase__info {
+  left: auto;
+  width: 100%;
+  text-align: center;
+}
+.rooms--rooms__showcase__info__text {
+  left: 5%;
+  width: 90%;
+}
+.rooms--rooms__showcase__info__price-tag {
+  margin-right: 10%;
+}
+.rooms--rooms__showcase__info__book-now {
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 17.41px;
+}
+.rooms--rooms__showcase__info__book-now a {
+  text-decoration: none;
+  color: #BDBDBD;
+}
+.rooms--rooms__pagination {
+  font-family: Oswald;
+  display: flex;
+  justify-content: space-evenly;
+}
+.rooms--rooms__pagination a {
+  text-decoration: none;
+  color: #222222;
 }
 
 .footer {
