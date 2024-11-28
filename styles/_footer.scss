@@ -1,60 +1,164 @@
 .footer {
-    position: relative;
-    margin-top: 20%;
-    padding-top: 10%;
+  position: relative;
+  margin-top: 20%;
+  padding-top: 10%;
   &::before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: 0;
-      left: 0;
-      opacity: 0.02;
-      width: 100%;
-      height: 100%;
-      background-image: url(../assets/footer-background.png);
-      background-position: center;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.02;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/footer-background.png);
+    background-position: center;
   }
   &__logo {
-      display: flex;
-      align-items: center;
-      margin-left: 5%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
     &__container {
-        aspect-ratio: 1;
-        align-content: center;
-        width: 20%;
-        background-color: #bead8e;
-        text-align: center;
+      aspect-ratio: 1;
+      align-content: center;
+      width: 20%;
+      background-color: #bead8e;
+      text-align: center;
       &__icon {
-          font-size: 2.5rem;
-          font-family: Archivo, sans-serif;
-          font-weight: 700;
-          line-height: 2.6875rem;
-          color: white;
+        font-size: 2.5rem;
+        font-family: Archivo, sans-serif;
+        font-weight: 700;
+        line-height: 2.6875rem;
+        color: white;
       }
     }
     &__text {
-        margin-left: 5%;
-        font-size: 1.625rem;
-        font-family: Archivo, sans-serif;
-        font-weight: 700;
-        line-height: 1.7681rem;
-        text-transform: uppercase;
-        letter-spacing: 0.1625rem;
+      margin-left: 5%;
+      font-size: 1.625rem;
+      font-family: Archivo, sans-serif;
+      font-weight: 700;
+      line-height: 1.7681rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1625rem;
       &--miranda {
-          font-weight: 400;
+        font-weight: 400;
       }
     }
   }
 
-  &__text{
+  &__text {
+    width: 90%;
     margin-top: 10%;
-      width: 90%;
-      margin-left: 5%;
-      font-size: 1rem;
-      font-family: Archivo, sans-serif;
+    margin-left: 5%;
+    font-size: 1rem;
+    font-family: Archivo, sans-serif;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: #777777;
+  }
+
+  &__social-media {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    &__container {
+      width: fit-content;
+      margin-right: 3%;
+      padding: 0.5rem;
+      background-color: #f8f8f8;
+    }
+
+    &__container:hover {
+      background-color: #bead8e;
+      &__icon:hover {
+        filter: brightness(100);
+      }
+    }
+  }
+
+  &__services {
+    margin-top: 10%;
+    margin-left: 5%;
+    &__title {
+      font-size: 1.5rem;
+      font-family: "Old Standard TT", serif;
       font-weight: 400;
-      line-height: 1.75rem;
+      line-height: 1.5rem;
+      color: #222222;
+    }
+    &__list {
+      columns: 2;
+      margin-top: 5%;
+      font-size: 1rem;
+      font-family: Roboto, sans-serif;
+      line-height: 3rem;
       color: #777777;
+      list-style: none;
+      li::before {
+        content: "+";
+        margin-right: 0.25rem;
+      }
+    }
+  }
+
+  &__contact {
+    margin-top: 10%;
+    margin-left: 5%;
+    &__title {
+      font-size: 1.5rem;
+      font-family: "Old Standard TT", serif;
+      font-weight: 400;
+      line-height: 1.5rem;
+      color: #222222;
+    }
+
+    &__item {
+      display: flex;
+      align-items: center;
+      margin-top: 10%;
+      padding-bottom: 5%;
+      &__image {
+      }
+
+      &__text {
+        flex: 1;
+        &__title {
+          margin-left: 5%;
+          font-size: 1.25rem;
+          font-family: "Old Standard TT", serif;
+          font-weight: 400;
+          line-height: 1.5rem;
+          color: #222222;
+        }
+
+        &__info {
+          margin-left: 5%;
+          font-size: 0.875rem;
+          font-family: Roboto, sans-serif;
+          line-height: 1.0256rem;
+          color: #777777;
+        }
+      }
+    }
+  }
+  &__copyright {
+    margin-left: 5%;
+    padding-top: 5%;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    line-height: 18.75px;
+    color: #222222;
+    letter-spacing: -0.03rem;
+    &__links {
+      margin-top: 5%;
+      padding-bottom: 5%;
+      a {
+        color: #222222;
+        text-decoration: none;
+      }
+    }
   }
 }
 

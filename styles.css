@@ -149,6 +149,26 @@
   text-transform: uppercase;
   letter-spacing: 0.175rem;
 }
+.header__navigation {
+  position: relative;
+  left: 65%;
+  bottom: 3rem;
+  background-color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5%;
+}
+.header__navigation__links {
+  font-size: 1rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 1.0881rem;
+  letter-spacing: -0.03rem;
+}
+.header__navigation__links a {
+  color: #222222;
+  text-decoration: none;
+}
 
 .about-us {
   margin-top: 10%;
@@ -618,6 +638,176 @@
   color: white;
 }
 
+.video-container {
+  width: 90%;
+  margin-left: 5%;
+}
+.video-container__video {
+  height: 186px;
+  margin-top: 1.5rem;
+  background-color: #e6e6e6;
+}
+.video-container__text {
+  margin-top: 10%;
+  font-size: 2rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 2.4719rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: -0.0725rem;
+}
+
+.features {
+  -moz-columns: 2;
+       columns: 2;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 20%;
+  margin-left: 5%;
+  text-align: center;
+}
+.features__feature {
+  aspect-ratio: 1;
+  align-content: center;
+  flex: 1;
+  width: 100%;
+}
+.features__feature__text {
+  margin-top: 10%;
+  font-size: 0.75rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.restaurant {
+  margin-inline: 5%;
+  margin-top: 10%;
+}
+.restaurant__container {
+  padding: 5%;
+}
+.restaurant__container__image {
+  aspect-ratio: 1.2;
+  width: 100%;
+}
+.restaurant__container__section-title {
+  width: 60%;
+  padding-top: 20%;
+  font-size: 0.8rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 1.125rem;
+  color: #777777;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.restaurant__container__content-title {
+  margin-top: 5%;
+  font-size: 2.5rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 3.09rem;
+  text-transform: capitalize;
+  letter-spacing: -0.0656rem;
+}
+.restaurant__container__text {
+  font-size: 0.875rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #777777;
+}
+.restaurant__container__button {
+  width: 70%;
+  max-width: 13.5625rem;
+  height: 4rem;
+  margin-top: 5%;
+  background-color: #bead8e;
+  border: none;
+  font-size: 0.875rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 0.9519rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+}
+
+.facilities--about-us {
+  padding-bottom: 20%;
+  background-color: #222222;
+}
+.facilities--about-us__section-title {
+  color: white;
+}
+.facilities--about-us__content-title {
+  color: white;
+}
+.facilities--about-us__feature {
+  padding-bottom: 20%;
+  background-color: #292929;
+}
+.facilities--about-us__feature__title {
+  color: white;
+}
+.facilities--about-us__feature__text {
+  color: white;
+}
+
+.counter {
+  margin-inline: 5%;
+  margin-top: 20%;
+}
+.counter__section-title {
+  width: 60%;
+  font-size: 0.8rem;
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  line-height: 1.125rem;
+  color: #777777;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.counter__content-title {
+  margin-top: 5%;
+  font-size: 3.5rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 3.75rem;
+  text-transform: capitalize;
+  letter-spacing: -0.075rem;
+}
+.counter__item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+  padding: 5%;
+}
+.counter__item__text__number {
+  font-size: 3.75rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 3.75rem;
+  letter-spacing: -0.1125rem;
+}
+.counter__item__text__info {
+  font-family: Archivo, sans-serif;
+  color: #777777;
+  text-transform: capitalize;
+}
+.counter__image-container {
+  margin-top: 10%;
+}
+.counter__image-container__image {
+  width: 100%;
+  aspect-ratio: 1.5;
+}
+
 .footer {
   position: relative;
   margin-top: 20%;
@@ -667,14 +857,111 @@
   font-weight: 400;
 }
 .footer__text {
-  margin-top: 10%;
   width: 90%;
+  margin-top: 10%;
   margin-left: 5%;
   font-size: 1rem;
   font-family: Archivo, sans-serif;
   font-weight: 400;
   line-height: 1.75rem;
   color: #777777;
+}
+.footer__social-media {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.footer__social-media__container {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 3%;
+  padding: 0.5rem;
+  background-color: #f8f8f8;
+}
+.footer__social-media__container:hover {
+  background-color: #bead8e;
+}
+.footer__social-media__container:hover__icon:hover {
+  filter: brightness(100);
+}
+.footer__services {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.footer__services__title {
+  font-size: 1.5rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #222222;
+}
+.footer__services__list {
+  -moz-columns: 2;
+       columns: 2;
+  margin-top: 5%;
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+  line-height: 3rem;
+  color: #777777;
+  list-style: none;
+}
+.footer__services__list li::before {
+  content: "+";
+  margin-right: 0.25rem;
+}
+.footer__contact {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.footer__contact__title {
+  font-size: 1.5rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #222222;
+}
+.footer__contact__item {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  padding-bottom: 5%;
+}
+.footer__contact__item__text {
+  flex: 1;
+}
+.footer__contact__item__text__title {
+  margin-left: 5%;
+  font-size: 1.25rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #222222;
+}
+.footer__contact__item__text__info {
+  margin-left: 5%;
+  font-size: 0.875rem;
+  font-family: Roboto, sans-serif;
+  line-height: 1.0256rem;
+  color: #777777;
+}
+.footer__copyright {
+  margin-left: 5%;
+  padding-top: 5%;
+  background-color: #f8f8f8;
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: 18.75px;
+  color: #222222;
+  letter-spacing: -0.03rem;
+}
+.footer__copyright__links {
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+.footer__copyright__links a {
+  color: #222222;
+  text-decoration: none;
 }
 
 * {

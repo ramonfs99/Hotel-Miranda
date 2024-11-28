@@ -4,145 +4,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>About</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <button>
-                <img src="" alt="">
+    <header class="header">
+        <nav class="header__navbar">
+            <button class="header__navbar__hamburger-btn">
+                <img src="../assets/icons/hamburger-icon.png" alt="">
             </button>
-            <div></div>
-            <div>
-                <button><img src="" alt=""></button>
-                <button><img src="" alt=""></button>
+            <div class="header__navbar__logo">
+                <div class="header__navbar__logo__container">
+                    <p class="header__navbar__logo__container_icon">H</p>
+                </div>
+                <p class="header__navbar__logo__text"><strong>Hotel</strong><br>Miranda</p>
+            </div>
+            <div class="header__navbar__buttons">
+                <button class="header__navbar__buttons__button header__navbar__buttons__button--user"><img
+                        src="../assets/icons/user-icon.png" alt=""></button>
+                <button class="header__navbar__buttons__button header__navbar__buttons__button--search"><img
+                        src="../assets/icons/search-icon.png" alt=""></button>
             </div>
         </nav>
-        <div>
-            <h3>The ultimate luxury</h3>
-            <h1>About us</h1>
+        <div class="header__jumbotron">
+            <h3 class="header__jumbotron__motto">The ultimate luxury</h3>
+            <h1 class="header__jumbotron__title">About us</h1>
         </div>
-        <div>
-            <p><a href="">Home</a> | <a href="">About</a></p>
+        <div class="header__navigation">
+            <p class="header__navigation__links"><a href="">Home</a> | <a href="">About</a></p>
         </div>
     </header>
     <main>
-        <div>
-            <video src=""></video>
-            <p></p>
+        <div class="video-container">
+            <video class="video-container__video" src=""></video>
+            <p class="video-container__text">Hello. Our hotel has been present for over 20 years. We make the best for all our customers.</p>
         </div>
-        <section>
-            <article>
-                <img src="" alt="">
-                <p>Breakfast</p>
+        <section class="features">
+            <article class="features__feature">
+                <img class="features__feature__image" src="../assets/icons/breakfast-icon.png" alt="">
+                <p class="features__feature__text">Breakfast</p>
             </article>
-            <article>
-                <img src="" alt="">
-                <p>Airport pickup</p>
+            <article class="features__feature">
+                <img class="features__feature__image" src="../assets/icons/location-icon2.png" alt="">
+                <p class="features__feature__text">City guide</p>
             </article>
-            <article>
-                <img src="" alt="">
-                <p>City guide</p>
+            <article class="features__feature">
+                <img class="features__feature__image" src="../assets/icons/airplane-icon.png" alt="">
+                <p class="features__feature__text">Airport pickup</p>
             </article>
-            <article>
-                <img src="" alt="">
-                <p>Luxury room</p>
-            </article>
-        </section>
-        <section>
-            <article>
-                <img src="" alt="">
-                <h3>Restaurant</h3>
-                <h2>Get restaurant facilities & many othen more</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                <button>Take a tour</button>
+            <article class="features__feature">
+                <img class="features__feature__image" src="../assets/icons/room-icon.png" alt="">
+                <p class="features__feature__text">Luxury room</p>
             </article>
         </section>
-        <section>
-            <article>
-                <h3>Facilities</h3>
-                <h2>Core Features</h2>
-                <div>
-                    <p>01</p>
-                    <img src="" alt="">
-                    <h2>Have high rating</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+        <section class="restaurant">
+            <article class="restaurant__container">
+                <img class="restaurant__container__image" src="../assets/default.jpg" alt="">
+                <h3 class="restaurant__container__section-title">Restaurant</h3>
+                <h2 class="restaurant__container__content-title">Get restaurant facilities & many othen more</h2>
+                <p class="restaurant__container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                <button class="restaurant__container__button">Take a tour</button>
+            </article>
+        </section>
+        <section class="facilities facilities--about-us">
+            <h3 class="facilities__section-title facilities--about-us__section-title">Facilities</h3>
+            <h2 class="facilities__content-title facilities--about-us__content-title">Core Features</h2>
+            <div class="facilities__features">
+                <article class="facilities__features__feature facilities--about-us__feature">
+                    <div class="facilities__features__feature__card-header">
+                        <p class="facilities__features__feature__card-header__number">01</p>
+                        <img class="facilities__features__feature__card-header__image" src="../assets/icons/rating-icon.png" alt="">
+                    </div>
+                    <h2 class="facilities__features__feature__title facilities--about-us__feature__title">Have high rating</h2>
+                    <p class="facilities__features__feature__text facilities--about-us__feature__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna..</p>
+                </article>
+            </div>
+        </section>
+        <section class="counter">
+            <h3 class="counter__section-title">Counter</h3>
+            <h2 class="counter__content-title">Some fun facts</h2>
+            <article class="counter__item">
+                <img src="../assets/icons/happy-user-icon.png" alt="">
+                <div class="counter__item__text">
+                    <h2 class="counter__item__text__number">8000</h2>
+                    <p class="counter__item__text__info">Happy users</p>
                 </div>
+                <img src="../assets/icons/arrow-right.png" alt="">
             </article>
-        </section>
-        <section>
-            <h3>Counter</h3>
-            <h2>Some fun facts</h2>
-            <article>
-                <img src="" alt="">
-                <h2>8000</h2>
-                <p>Happy users</p>
-                <img src="" alt="">
+            <article class="counter__item">
+                <img class="counter__item__image" src="../assets/icons/reviews-icon.png" alt="">
+                <div class="counter__item__text">
+                    <h2 class="counter__item__text__number">10M</h2>
+                    <p class="counter__item__text__info">Reviews & Appreciate</p>
+                </div>
+                <img class="counter__item__image" src="../assets/icons/arrow-right.png" alt="">
             </article>
-            <article>
-                <img src="" alt="">
-                <h2>10M</h2>
-                <p>Reviews & Appreciate</p>
-                <img src="" alt="">
+            <article class="counter__item">
+                <img class="counter__item__image" src="../assets/icons/coverage-icon.png" alt="">
+                <div class="counter__item__text">
+                    <h2 class="counter__item__text__number">100</h2>
+                    <p class="counter__item__text__info">Country Coverage</p>
+                </div>
+                <img src="../assets/icons/arrow-right.png" alt="">
             </article>
-            <article>
-                <img src="" alt="">
-                <h2>100</h2>
-                <p>Country Coverage</p>
-                <img src="" alt="">
-            </article>
-            <div>
-                <img src="" alt="">
+            <div class="counter__image-container">
+                <img class="counter__image-container__image" src="../assets/default.jpg" alt="">
             </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <img src="" alt="">
-            <p>Hotel Miranda</p>
+    <footer class="footer">
+        <div class="footer__logo">
+            <div class="footer__logo__container">
+                <p class="footer__logo__container__icon">H</p>
+            </div>
+            <p class="footer__logo__text">Hotel <span class="footer__logo__text footer__logo__text--miranda"> Miranda</span></p>
         </div>
-        <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et
+        <p class="footer__text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+        <div class="footer__social-media">
+            <div class="footer__social-media__container">
+                <img class="footer__social-media__container__icon" src="../assets/icons/facebook-icon.svg" alt="">
+            </div>
+            <div class="footer__social-media__container">
+                <img class="footer__social-media__icon" src="../assets/icons/twitter-icon.svg" alt="">
+            </div>
+            <div class="footer__social-media__container">
+                <img class="footer__social-media__icon" src="../assets/icons/behance-icon.svg" alt="">
+            </div>
+            <div class="footer__social-media__container">
+                <img class="footer__social-media__icon" src="../assets/icons/linkedin-icon.svg" alt="">
+            </div>
+            <div class="footer__social-media__container">
+                <img class="footer__social-media__icon" src="../assets/icons/youtube-icon.svg" alt="">
+            </div>
         </div>
-        <h2>Services.</h2>
-        <ul>
-            <li>Restaurant & Bar</li>
-            <li>Swimming Pool</li>
-            <li>Wellness & Spa</li>
-            <li>Restaurant</li>
-            <li>Conference Rooms</li>
-            <li>Cocktail Party House</li>
-            <li>Gaming Zone</li>
-            <li>Marriage Party</li>
-            <li>Party Planning</li>
-            <li>Tour Consultancy</li>
-        </ul>
-        <h2>Contact us.</h2>
-        <div>
-            <img src="" alt="">
-            <h3>Phone number</h3>
-            <p>+987 876 765 76 577</p>
+        <div class="footer__services">
+            <h2 class="footer__services__title">Services.</h2>
+            <ul class="footer__services__list">
+                <li>Restaurant & Bar</li>
+                <li>Swimming Pool</li>
+                <li>Wellness & Spa</li>
+                <li>Restaurant</li>
+                <li>Conference Rooms</li>
+                <li>Cocktail Party House</li>
+                <li>Gaming Zone</li>
+                <li>Marriage Party</li>
+                <li>Party Planning</li>
+                <li>Tour Consultancy</li>
+            </ul>
         </div>
-        <div>
-            <img src="" alt="">
-            <h3>Phone number</h3>
-            <p>+987 876 765 76 577</p>
+        <div class="footer__contact">
+            <h2 class="footer__contact__title">Contact us.</h2>
+            <div class="footer__contact__item">
+                <img class="footer__contact__item__image" src="../assets/icons/phone-icon.png" alt="">
+                <div class="footer__contact__item__text">
+                    <h3 class="footer__contact__item__text__title">Phone number</h3>
+                    <p class="footer__contact__item__text__info">+987 876 765 76 577</p>
+                </div>
+            </div>
+            <div class="footer__contact__item">
+                <img class="footer__contact__item__image" src="../assets/icons/email-icon.png" alt="">
+                <div class="footer__contact__item__text">
+                    <h3 class="footer__contact__item__text__title">Phone number</h3>
+                    <p class="footer__contact__item__text__info">+987 876 765 76 577</p>
+                </div>
+            </div>
+            <div class="footer__contact__item">
+                <img class="footer__contact__item__image" src="../assets/icons/location-icon.png" alt="">
+                <div class="footer__contact__item__text">
+                    <h3 class="footer__contact__item__text__title">Phone number</h3>
+                    <p class="footer__contact__item__text__info">+987 876 765 76 577</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <img src="" alt="">
-            <h3>Phone number</h3>
-            <p>+987 876 765 76 577</p>
-        </div>
-        <div>
-            <p>Copyright By@Example - 2020</p>
-            <p>Terms of use | Privacy Environmental Policy</p>
+        <div class="footer__copyright">
+            <p class="footer__copyright__name">Copyright By@Example - 2020</p>
+            <p class="footer__copyright__links"><a href="">Terms of use</a> | <a href="">Privacy Environmental Policy</a></p>
         </div>
     </footer>
 </body>
