@@ -1,0 +1,84 @@
+.contact-info {
+  margin-left: 6%;
+  &__item {
+    height: 30vh;
+    overflow: hidden;
+    &__image {
+      text-wrap: nowrap;
+    }
+    &__text {
+      display: inline-block;
+      margin-left: 5%;
+      position: relative;
+      top: 2rem;
+      &__title {
+        width: 100%;
+        font-size: 1.75rem;
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        line-height: 3.75rem;
+        text-transform: capitalize;
+        letter-spacing: -0.075rem;
+      }
+      &__info {
+        width: fit-content;
+        font-size: 0.875rem;
+        font-family: Archivo, sans-serif;
+        font-weight: 400;
+        line-height: 1.5rem;
+        color: #777777;
+      }
+    }
+    &__number {
+      position: relative;
+      bottom: 7rem;
+      left: 35%;
+      font-size: 12.5rem;
+      font-family: Roboto, sans-serif;
+      font-weight: 700;
+      line-height: 15rem;
+      color: rgba($color: #222222, $alpha: 0.04);
+      height: fit-content;
+    }
+  }
+}
+
+.contact-form {
+  margin-top: 10%;
+  &__form {
+    width: 90%;
+    margin-inline: 5%;
+    &__input {
+      margin-top: 5%;
+      display: block;
+      background-color: #f8f8f8;
+      border: none;
+      padding: 7%;
+      width: 100%;
+      font-family: Roboto, sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.1719rem;
+      color: #777777;
+      &--textarea {
+        padding-bottom: 30%;
+      }
+    }
+
+    &__button {
+      width: 80%;
+      margin-inline: 10%;
+      height: 4rem;
+      font-size: 0.875rem;
+      font-family: Archivo, sans-serif;
+      font-weight: 700;
+      line-height: 0.9519rem;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 0.175rem;
+      margin-top: 10%;
+      background-color: #bead8e;
+      border: none;
+    }
+  }
+}
